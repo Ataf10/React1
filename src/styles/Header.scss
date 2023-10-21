@@ -1,0 +1,40 @@
+@import "colors";
+
+*{
+    margin: 0;
+    padding: 0;
+    font-family: "Roboto", sans-serif;  
+    box-sizing: border-box;
+    text-decoration: none;
+    scroll-behavior: smooth;
+}
+
+nav{
+    width: 100%;
+    padding: 1rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border: 1px black solid;
+    position: sticky;
+    background-color: $first;
+    font-family: "Roboto" ;
+    z-index: 10;
+    top: 0%;
+    > h1{
+        text-transform: uppercase;
+    }
+}
+nav main{
+    display: flex;
+    gap: 2rem;
+    text-decoration: none;
+    .link{
+        color: black;
+    }
+    .link:hover{
+        color: #5853ff;
+        
+    }
+    
+}
